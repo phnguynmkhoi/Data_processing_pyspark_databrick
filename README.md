@@ -1,4 +1,4 @@
-# F1 Formula Data ETL Pipeline on Databricks
+# F1 Formula Data Transformation Stage on Databricks using Pyspark
 
 This repository contains an ETL (Extract, Transform, Load) pipeline built on Databricks, designed to process and analyze F1 Formula racing data. The pipeline supports both full and incremental data loads and follows a three-layer architecture: Raw, Processed, and Presentation, utilizing Databricks File System (DBFS) for storage.
 
