@@ -1,6 +1,6 @@
 # F1 Formula Data Transformation Stage on Databricks using Pyspark
 
-This repository contains an ETL (Extract, Transform, Load) pipeline built on Databricks, designed to process and analyze F1 Formula racing data. The pipeline supports both full and incremental data loads and follows a three-layer architecture: Raw, Processed, and Presentation, utilizing Databricks File System (DBFS) for storage.
+This repository contains an processing pipeline built on Databricks, designed to process and analyze F1 Formula racing data. The pipeline supports both full and incremental data loads and follows a three-layer architecture: Raw, Processed, and Presentation, utilizing Databricks File System (DBFS) for storage.
 
 ## Table of Contents
 
@@ -57,7 +57,7 @@ The **Full Load** process involves ingesting all F1 data from the source systems
 
 The **Incremental Load** process focuses on ingesting only new or updated F1 data since the last successful load. This approach optimizes processing time and resource usage by employing techniques like time-based filtering. Incremental loads are mainly used for dynamic datasets such as pit stops, lap times, qualifying results, and race outcomes, which receive updates every race week. 
 
-## ETL Process
+## Data Layers
 
 ### Raw Layer
 
